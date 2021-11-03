@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet"> 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/5ffbbbe9fc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Travel Blog</title>
 </head>
@@ -15,75 +16,85 @@
 <!-- beginning of body -->
 <body>
 
-<!-- links to page sections are here -->
-<!-- nav starts -->
 
-<nav>
-    <div class="wrapper topnav">
-        <div class="logo">
-            <p>travel</p>
-        </div>
-            <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">blog</a></li>
-                <li><a href="#"><button>contact</button></a></li>
-            </ul>
-        </div>
-</nav>
-<!-- nav ends -->
 
 <!-- header starts here -->
 <header>
-    <div class="wrapper">
-    <h1>travel outdoor 
-        <div>ipsum dolor sit.</div></h1>
+    <div class="wrapper headerSection">
+
+    <!-- links to page sections are here -->
+    <!-- nav starts -->
+
+    <nav class="topNav"> 
+        <div class="logo">
+            <p>travel</p>
+        </div>         
+            <ul class="nav">
+                <li class="navItem"><a href="#">home</a></li>
+                <li class="navItem"><a href="#">about</a></li>
+                <li class="navItem"><a href="#">blog</a></li>
+                <li class="navItem"><a href="#"><button>contact</button></a></li>
+            </ul>
+            <div class="toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+    </nav>
+    <!-- nav ends -->
+    
     </div>
+
+    <h1 class="wrapper">travel outdoor 
+        <span>ipsum dolor sit.</span>
+    </h1>
 </header>  
 <!-- header ends -->
 
 <!-- webpage main content and its divisions here -->
 <!-- main starts -->
-<main class="wrapper"> 
+<main> 
 
     <!-- 1st section starts -->
-    <div class="flexParent1">
-        <div class="box1">
-            <img src = "image-1.jpeg" alt ="a picture of the back of a blue bus on a mountain road">
-        </div>
+    <div class="wrapper flexParent1">
+        
+        <img src = "./assets/image-1.jpeg" alt ="a picture of the back of a blue bus on a mountain road">
+        
 
-        <div class="box2">
-            <img src = "image-2.jpeg" alt = "picture of a blue ocean water">
-            <aside class="section1">
-            <h2>Feature</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer</p>
-            <a href="#"><button>read more</button></a> 
-            </aside>
+        <div class="box1">
+            <img src = "./assets/image-2.jpeg" alt = "picture of a blue ocean water">
+            <div class="section1">
+                <h2>Feature</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer</p>
+                <a href="#"><button>read more</button></a> 
+            </div>
         </div>
     </div>
     <!-- 1st section ends -->
 
     <!-- 2nd section starts -->
-    <div class="flexParent2">
-        <div class="box3">
-            <img src = "image-3.jpeg" alt ="a man sitting on the dock facing a lake">
-            <aside class="section2">
+    <div class="wrapper flexParent2">
+        <div class="box2">
+            <img src = "./assets/image-3.jpeg" alt ="a man sitting on the dock facing a lake">
+            <div class="section2">
                 <h2>Feature</h2>
                 <p>Exerci tation ullamcorper suscipit</p>
                 <a href="#"><button>read more</button></a>
-            </aside>
+            </div>
         </div>
 
-        <div class="box4">
-            <img src = "image-4.jpeg" alt = "a man standing on a cliff overlooking the ocean">
-        </div>
+        <img src = "./assets/image-4.jpeg" alt = "a man standing on a cliff overlooking the ocean">
     </div>
     <!-- 2nd section ends -->
 
     <!-- 3rd section starts -->
-    <div class="box5">
-        <img class="img1" src = "image-5.jpeg" alt = "many white buildings on a hill">
-        <img src = "image-6.jpeg" alt = "an open suitcase revealing its contents">
+    <div class="wrapper box3">
+        <div class="img1">
+            <img src = "./assets/image-5.jpeg" alt = "many white buildings on a hill">
+        </div>
+        <div class="img2">
+            <img src = "./assets/image-6.jpeg" alt = "an open suitcase revealing its contents">
+        </div>  
     </div>
     <!-- 3rd section ends -->
 
@@ -93,28 +104,28 @@
 <!-- bottom page and more links for the website here -->
 <!-- footer starts -->
 <footer>
-    <div class="wrapper">
-        <nav class="bottomnav">
+    <div class="wrapper footerSection">
         <div class="logo">
             <p>travel</p>
         </div>
 
-        <!-- blog links -->
-        <ul class="firstlist">
-            <li><a href="#">home</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">blog</a></li>
-            <li><a href="#">contact</a></li>
-        </ul>
+        <nav class="bottomNav">
+            <!-- blog links -->
+            <ul class="firstList">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
 
-        <!-- social media links -->
-        <ul class="secondlist">
-            <li><a href="https://twitter.com">twitter</a></li>
-            <li><a href="https://faceboook.com">facebook</a></li>
-            <li><a href="https://linkedin.com">linkedin</a>
-            </li>
-        </ul>
-            <div class="navparagraph">
+            <!-- social media links -->
+            <ul class="secondList">
+                <li><a href="https://twitter.com">twitter</a></li>
+                <li><a href="https://faceboook.com">facebook</a></li>
+                <li><a href="https://linkedin.com">linkedin</a>
+                </li>
+            </ul>
+            <div class="navParagraph">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit, sed diam nonommu nibh euismod tincidunt ut laoreet dolore magna.</p>
             </div>
         </nav>
@@ -127,5 +138,7 @@
     </div>
 </footer>
 <!-- footer ends -->
+
+<script src="./script.js"></script>
 </body>
 </html>
